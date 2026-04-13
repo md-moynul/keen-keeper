@@ -17,7 +17,7 @@ const Footer = () => {
                         <a  className='bg-base-100 text-black p-3 rounded-full' href=""><FaXTwitter  size={30} /></a>
                     </div>
                 </div>
-                <div className='flex flex-col-reverse md:flex-row md:justify-between text-gray-400'>
+                <div className='flex flex-col-reverse gap-4 md:flex-row md:justify-between text-gray-400'>
                     <a>&copy;2026 KeenKeeper. All rights reserved.</a>
                     <div className="flex gap-4 mx-auto md:mx-0">
                         <a href="">Privacy Policy</a>
