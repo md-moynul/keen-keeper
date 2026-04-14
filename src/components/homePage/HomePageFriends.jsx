@@ -1,5 +1,5 @@
-
 import useData from '../../hooks/useData';
+import FriendsCard from './FriendsCard';
 
 const HomePageFriends = () => {
     const {friends , loading} = useData()
@@ -8,8 +8,8 @@ const HomePageFriends = () => {
     return (
         <div className='container mx-auto space-y-4 '>
             <h3 className="text-2xl font-bold">Your Friends</h3>
-            <div>
-                {friends.map(friend => <h1>{friend.name}</h1>)}
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
+                {friends.map(friend => <FriendsCard key={friend.id} friend={friend}/>)}
             </div>
         </div>
     );
