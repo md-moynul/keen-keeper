@@ -1,9 +1,12 @@
+import { ClockLoader } from 'react-spinners';
 import useData from '../../hooks/useData';
 import FriendsCard from './FriendsCard';
 
 const HomePageFriends = () => {
     const {friends , loading} = useData()
-    console.log(friends,loading);
+    if (loading) {
+        return <div className='flex justify-center items-center min-h-[80vh]'><ClockLoader color='#244D3F' size={80} /></div>
+    }
     
     return (
         <div className='container mx-auto space-y-4 '>

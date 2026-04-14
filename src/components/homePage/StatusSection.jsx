@@ -1,8 +1,18 @@
 import React from 'react';
+import useData from '../../hooks/useData';
+import { ClockLoader } from 'react-spinners';
 
 const StatusSection = () => {
+    const {friends ,loading} = useData()
+    console.log(friends.length);
+    if (loading) {
+        // return <div className='flex justify-center items-center min-h-[80vh]'><ClockLoader color='#244D3F' size={80} /></div>
+    }
+    const total  = friends.length
+    console.log(total);
+    
     const status = [
-        {number: '10' , string : 'Total Friends'},
+        {number: total , string : 'Total Friends'},
         {number: '3' , string : 'On Track'},
         {number: '5' , string : 'Need Attention'},
         {number: '12' , string : 'Interactions This Month'},

@@ -3,144 +3,157 @@
     "id": 1,
     "name": "David Kim",
     "picture": "https://i.ibb.co.com/8gS87cYK/1.png",
-    "email": "david.kim@example.com",
+    "email": "david.kim1@example.com",
     "days_since_contact": 62,
     "status": "almost due",
     "tags": ["work"],
     "bio": "Professional contact from the workplace.",
     "goal": 60,
-    "next_due_date": "2026-04-12"
+    "next_due_date": "2026-04-12",
+    "preferred_contact_method": "LinkedIn"
   },
   {
     "id": 2,
     "name": "Emma Wilson",
     "picture": "https://i.ibb.co.com/6RrLk8V2/2.png",
     "email": "emma.wilson@example.com",
-    "days_since_contact": 52,
+    "days_since_contact": 62,
     "status": "overdue",
     "tags": ["family"],
-    "bio": "Family member.",
+    "bio": "Former colleague, great mentor",
     "goal": 30,
-    "next_due_date": "2026-03-23"
+    "next_due_date": "2026-02-27",
+    "preferred_contact_method": "email",
+    "relationship_goal": "Connect every 30 days"
   },
   {
     "id": 3,
     "name": "Lisa Nakamura",
     "picture": "https://i.ibb.co.com/C55mwr90/3.png",
-    "email": "lisa.nakamura@example.com",
+    "email": "lisa.nakamura1@example.com",
     "days_since_contact": 62,
     "status": "overdue",
     "tags": ["work"],
     "bio": "Colleague from work.",
     "goal": 30,
-    "next_due_date": "2026-03-13"
+    "next_due_date": "2026-03-13",
+    "preferred_contact_method": "Slack"
   },
   {
     "id": 4,
     "name": "James Wright",
     "picture": "https://i.ibb.co.com/XxRrsCTQ/4.png",
-    "email": "james.wright@example.com",
+    "email": "james.wright1@example.com",
     "days_since_contact": 62,
     "status": "overdue",
     "tags": ["hobby", "travel"],
     "bio": "Shares hobby and travel interests.",
     "goal": 30,
-    "next_due_date": "2026-03-13"
+    "next_due_date": "2026-03-13",
+    "preferred_contact_method": "Text"
   },
   {
     "id": 5,
     "name": "David Kim",
     "picture": "https://i.ibb.co.com/KpdcfmVZ/5.png",
-    "email": "david.k2@example.com",
+    "email": "david.kim2@example.com",
     "days_since_contact": 62,
     "status": "overdue",
     "tags": ["work"],
     "bio": "Work project associate.",
     "goal": 30,
-    "next_due_date": "2026-03-13"
+    "next_due_date": "2026-03-13",
+    "preferred_contact_method": "email"
   },
   {
     "id": 6,
     "name": "Emma Wilson",
     "picture": "https://i.ibb.co.com/Sw9qGH1T/6.png",
-    "email": "emma.w2@example.com",
+    "email": "emma.wilson2@example.com",
     "days_since_contact": 52,
     "status": "on-track",
     "tags": ["family"],
     "bio": "Close relative.",
     "goal": 60,
-    "next_due_date": "2026-04-22"
+    "next_due_date": "2026-04-22",
+    "preferred_contact_method": "Call"
   },
   {
     "id": 7,
     "name": "Lisa Nakamura",
     "picture": "https://i.ibb.co.com/LdZg83z0/7.png",
-    "email": "lisa.n2@example.com",
+    "email": "lisa.nakamura2@example.com",
     "days_since_contact": 62,
     "status": "on-track",
     "tags": ["work"],
     "bio": "Department colleague.",
     "goal": 90,
-    "next_due_date": "2026-05-12"
+    "next_due_date": "2026-05-12",
+    "preferred_contact_method": "Slack"
   },
   {
     "id": 8,
     "name": "James Wright",
     "picture": "https://i.ibb.co.com/rKCdqNYZ/8.png",
-    "email": "james.w2@example.com",
+    "email": "james.wright2@example.com",
     "days_since_contact": 62,
     "status": "almost due",
     "tags": ["hobby", "travel"],
     "bio": "Photography and travel friend.",
     "goal": 60,
-    "next_due_date": "2026-04-12"
+    "next_due_date": "2026-04-12",
+    "preferred_contact_method": "Text"
   },
   {
     "id": 9,
     "name": "David Kim",
     "picture": "https://i.ibb.co.com/G3n6cCpZ/9.png",
-    "email": "david.k3@example.com",
+    "email": "david.kim3@example.com",
     "days_since_contact": 62,
     "status": "almost due",
     "tags": ["work"],
     "bio": "External partner.",
     "goal": 60,
-    "next_due_date": "2026-04-12"
+    "next_due_date": "2026-04-12",
+    "preferred_contact_method": "email"
   },
   {
     "id": 10,
     "name": "Emma Wilson",
     "picture": "https://i.ibb.co.com/Yx5z64T/10.png",
-    "email": "emma.w3@example.com",
+    "email": "emma.wilson3@example.com",
     "days_since_contact": 52,
     "status": "overdue",
     "tags": ["family"],
     "bio": "Extended family member.",
     "goal": 30,
-    "next_due_date": "2026-03-23"
+    "next_due_date": "2026-03-23",
+    "preferred_contact_method": "Call"
   },
   {
     "id": 11,
     "name": "Lisa Nakamura",
     "picture": "https://i.ibb.co.com/4gttTH37/11.png",
-    "email": "lisa.n3@example.com",
+    "email": "lisa.nakamura3@example.com",
     "days_since_contact": 62,
     "status": "overdue",
     "tags": ["work"],
     "bio": "Office peer.",
     "goal": 30,
-    "next_due_date": "2026-03-13"
+    "next_due_date": "2026-03-13",
+    "preferred_contact_method": "LinkedIn"
   },
   {
     "id": 12,
     "name": "James Wright",
     "picture": "https://i.ibb.co.com/RGq0Ys8K/12.png",
-    "email": "james.w3@example.com",
+    "email": "james.wright3@example.com",
     "days_since_contact": 62,
     "status": "on-track",
     "tags": ["hobby", "travel"],
     "bio": "Hiking buddy.",
     "goal": 90,
-    "next_due_date": "2026-05-12"
+    "next_due_date": "2026-05-12",
+    "preferred_contact_method": "Video"
   }
 ]
