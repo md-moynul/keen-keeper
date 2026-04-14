@@ -1,4 +1,4 @@
-import logo from '../../assets/images/logo-xl.png'
+import logo from '../../../assets/images/logo-xl.png'
 import { TbBrandInstagramFilled } from 'react-icons/tb';
 import { FaFacebookSquare } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
