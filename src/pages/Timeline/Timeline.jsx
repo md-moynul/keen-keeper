@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { ContactContext } from '../../context/ContactContext';
 import ContactCard from '../../components/timeline/ContactCard';
+import { FaChevronDown } from 'react-icons/fa';
 
 const Timeline = () => {
     const {
@@ -25,7 +26,7 @@ const Timeline = () => {
                 <h2 className="text-5xl font-bold">Timeline </h2>
                 <div>
                     <div className="dropdown dropdown-bottom">
-                        <div tabIndex={0} role="button" className="btn m-1">Filter timeline {shortingType} ⬇️</div>
+                        <div tabIndex={0} role="button" className="btn m-1 flex gap-2 items-center">Filter timeline <FaChevronDown /></div>
                         <ul tabIndex="-1" className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
                             <li onClick={() => { setSortingType('Call') }}><a>Call</a></li>
                             <li onClick={() => { setSortingType('Text') }}><a>Text</a></li>

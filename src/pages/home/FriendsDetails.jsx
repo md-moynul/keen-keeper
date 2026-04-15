@@ -49,7 +49,7 @@ const FriendsDetails = () => {
                         <p className='text-[18px] text-gray-400'>Next Due</p>
                     </div>
                 </div>
-               <div className='col-span-3 shadow bg-base-100 rounded-2xl pt-8 shadow hover:shadow-xl hover:shadow-[#244D3F] hover:scale-101 transition-all duration-300'>
+               <div className='col-span-3  bg-base-100 rounded-2xl pt-8 shadow hover:shadow-xl hover:shadow-[#244D3F] hover:scale-101 transition-all duration-300'>
                     <Goal goal={goal}/>
                </div>
                <div className='col-span-3 md:col-span-2 '>
