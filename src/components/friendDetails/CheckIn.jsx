@@ -5,37 +5,36 @@ import { ContactContext } from '../../context/ContactContext';
 import { toast } from 'react-toastify';
 
 const CheckIn = ({ targetedFriends }) => {
-    const {allContact , setAllContact} = useContext(ContactContext)
-    
+    const { callContact, textContact, videoContact
+        , setCallContact, setTextContact, setVideoContact,allContact } = useContext(ContactContext)
+
     const handelCall = (targetedFriends) => {
-        const {name} = targetedFriends
+        const { name } = targetedFriends
         console.log('call clicked', targetedFriends.name);
         const time = new Date()
-        const newContact = {name , status : 'Call' , time:time}
-        console.log(time);
-        setAllContact([...allContact ,newContact])
-        toast.success('called successful')
+        const newContact = { name, status: 'Call', time: time }
+        setCallContact([...callContact, newContact])
+        toast.success(`Call with ${name}`)
     }
     const handelMassage = (targetedFriends) => {
-        const {name} = targetedFriends
+        const { name } = targetedFriends
         console.log('call clicked', targetedFriends.name);
         const time = new Date()
-        const newContact = {name , status : 'Text' , time:time}
-        console.log(time);
-        setAllContact([...allContact ,newContact])
-        toast.success('massaged successful')
+        const newContact = { name, status: 'Text', time: time }
+        setTextContact([...textContact, newContact])
+        toast.success(`Massage with ${name}`)
     }
     const handelVideo = (targetedFriends) => {
-        const {name} = targetedFriends
+        const { name } = targetedFriends
         console.log('call clicked', targetedFriends.name);
         const time = new Date()
-        const newContact = {name , status : 'Video' , time:time}
-        console.log(time);
-        setAllContact([...allContact ,newContact])
-        toast.success('video successful')
+        const newContact = { name, status: 'Video', time: time }
+        setVideoContact([...videoContact, newContact])
+        toast.success(`Video with ${name}`)
     }
-    console.log(allContact);
-    
+console.log(allContact);
+
+
     return (
         <div className="shadow bg-base-100 rounded-2xl  space-y-4 p-5 flex flex-col">
             <h3 className="text-xl text-[#244D3F]">Quick Check-In</h3>

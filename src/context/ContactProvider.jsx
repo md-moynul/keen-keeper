@@ -3,12 +3,21 @@ import { useState } from "react";
 import { ContactContext } from "./ContactContext";
 
 
-const ContactProvider = ({children}) => {
+const ContactProvider = ({ children }) => {
 
-    const [allContact , setAllContact] = useState([])
-    
+
+    const [callContact, setCallContact] = useState([])
+    const [textContact, setTextContact] = useState([])
+    const [videoContact, setVideoContact] = useState([])
+    const allContact = [...callContact, ...textContact, ...videoContact]
     const data = {
-        allContact , setAllContact
+        allContact,
+        callContact,
+        textContact,
+        videoContact,
+        setCallContact,
+        setTextContact,
+        setVideoContact
     }
     return (
         <ContactContext.Provider value={data}>
