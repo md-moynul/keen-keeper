@@ -11,7 +11,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <ContactProvider>
       < RouterProvider router={router} />
-      <ToastContainer />
+      <ToastContainer position="top-center"/>
     </ContactProvider>
 
   </StrictMode>,
