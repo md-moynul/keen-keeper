@@ -9,12 +9,13 @@ const ContactProvider = ({ children }) => {
     const [callContact, setCallContact] = useState([])
     const [textContact, setTextContact] = useState([])
     const [videoContact, setVideoContact] = useState([])
-    const allContact = [...callContact, ...textContact, ...videoContact]
+     const [allContact ,setAllContact] = useState([])
     const data = {
         allContact,
         callContact,
         textContact,
         videoContact,
+        setAllContact,
         setCallContact,
         setTextContact,
         setVideoContact

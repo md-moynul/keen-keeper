@@ -6,7 +6,8 @@ const Stats = () => {
     const {
         callContact,
         textContact,
-        videoContact
+        videoContact,
+        allContact
     } = useContext(ContactContext)
     const data = [
         { name: 'Call', value: callContact.length, fill: '#244D3F' },
@@ -16,10 +17,10 @@ const Stats = () => {
     ];
     return (
         <div className=' bg-base-200 '>
-            <div className='container mx-auto py-20 space-y-6 '>
+            <div className='container mx-auto py-10 px-5 lg:px-0 md:py-20 space-y-6 '>
 
-                <h2 className="text-5xl font-bold">Friendship Analytics</h2>
-                <div className='bg-base-100 rounded space-y-8  p-8 '>
+                <h2 className="text-3xl md:text-4xl lg:text-5xl text-center md:text-left font-bold">Friendship Analytics</h2>
+                {allContact.length === 0 ? <div className='text-center py-10 bg-base-100 '><h3 className='text-3xl md:text-4xl font-semibold'>No Interaction logged yet!</h3> </div> : <div className='bg-base-100 rounded space-y-8  p-8 '>
                     <h3 className="text-xl text-[#244D3F] ">By Interaction Type</h3>
                     <div className='flex justify-center'>
                         <PieChart style={{ width: '100%', maxWidth: '500px', maxHeight: '50vh', aspectRatio: 1 }} responsive>
@@ -36,13 +37,14 @@ const Stats = () => {
                                 isAnimationActive={true}
                             />
 
-                            <Legend />
-                            <Tooltip/>
+                            <Legend style={{ marginTop: '24px' }} />
+                            <Tooltip />
 
                         </PieChart>
                     </div>
 
-                </div>
+                </div>}
+
             </div>
         </div>
     );

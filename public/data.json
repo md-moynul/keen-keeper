@@ -10,7 +10,8 @@
     "bio": "Professional contact from the workplace.",
     "goal": 60,
     "next_due_date": "2026-04-12",
-    "preferred_contact_method": "LinkedIn"
+    "preferred_contact_method": "LinkedIn",
+    "need_attention": false
   },
   {
     "id": 2,
@@ -24,7 +25,8 @@
     "goal": 30,
     "next_due_date": "2026-02-27",
     "preferred_contact_method": "email",
-    "relationship_goal": "Connect every 30 days"
+    "relationship_goal": "Connect every 30 days",
+    "need_attention": true
   },
   {
     "id": 3,
@@ -37,7 +39,8 @@
     "bio": "Colleague from work.",
     "goal": 30,
     "next_due_date": "2026-03-13",
-    "preferred_contact_method": "Slack"
+    "preferred_contact_method": "Slack",
+    "need_attention": true
   },
   {
     "id": 4,
@@ -50,7 +53,8 @@
     "bio": "Shares hobby and travel interests.",
     "goal": 30,
     "next_due_date": "2026-03-13",
-    "preferred_contact_method": "Text"
+    "preferred_contact_method": "Text",
+    "need_attention": false
   },
   {
     "id": 5,
@@ -63,7 +67,8 @@
     "bio": "Work project associate.",
     "goal": 30,
     "next_due_date": "2026-03-13",
-    "preferred_contact_method": "email"
+    "preferred_contact_method": "email",
+    "need_attention": true
   },
   {
     "id": 6,
@@ -76,7 +81,8 @@
     "bio": "Close relative.",
     "goal": 60,
     "next_due_date": "2026-04-22",
-    "preferred_contact_method": "Call"
+    "preferred_contact_method": "Call",
+    "need_attention": false
   },
   {
     "id": 7,
@@ -89,7 +95,8 @@
     "bio": "Department colleague.",
     "goal": 90,
     "next_due_date": "2026-05-12",
-    "preferred_contact_method": "Slack"
+    "preferred_contact_method": "Slack",
+    "need_attention": true
   },
   {
     "id": 8,
@@ -102,7 +109,8 @@
     "bio": "Photography and travel friend.",
     "goal": 60,
     "next_due_date": "2026-04-12",
-    "preferred_contact_method": "Text"
+    "preferred_contact_method": "Text",
+    "need_attention": true
   },
   {
     "id": 9,
@@ -115,7 +123,8 @@
     "bio": "External partner.",
     "goal": 60,
     "next_due_date": "2026-04-12",
-    "preferred_contact_method": "email"
+    "preferred_contact_method": "email",
+    "need_attention": false
   },
   {
     "id": 10,
@@ -128,7 +137,8 @@
     "bio": "Extended family member.",
     "goal": 30,
     "next_due_date": "2026-03-23",
-    "preferred_contact_method": "Call"
+    "preferred_contact_method": "Call",
+    "need_attention": false
   },
   {
     "id": 11,
@@ -141,7 +151,8 @@
     "bio": "Office peer.",
     "goal": 30,
     "next_due_date": "2026-03-13",
-    "preferred_contact_method": "LinkedIn"
+    "preferred_contact_method": "LinkedIn",
+    "need_attention": true
   },
   {
     "id": 12,
@@ -154,6 +165,7 @@
     "bio": "Hiking buddy.",
     "goal": 90,
     "next_due_date": "2026-05-12",
-    "preferred_contact_method": "Video"
+    "preferred_contact_method": "Video",
+    "need_attention": false
   }
 ]

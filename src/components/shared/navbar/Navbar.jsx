@@ -1,9 +1,9 @@
-import logo from '../../../assets/images/logo.png'
 import { useState } from 'react';
 import { RiHome2Line, RiMenuFill } from 'react-icons/ri';
 import NavbarLinks from './NavbarLinks';
 import { IoTimeOutline } from 'react-icons/io5';
 import { GoGraph } from 'react-icons/go';
+import { Link } from 'react-router';
 
 
 const Navbar = () => {
@@ -17,9 +17,9 @@ const Navbar = () => {
         {links.map((e, i) => <NavbarLinks key={i} icon={e.icon} to={e.to}>{e.children}</NavbarLinks>)}
     </>
     return (
-        <div className='bg-base-100 shadow'>
+        <div className='bg-base-100 shadow px-5  lg:p-0'>
             <div className='flex justify-between container mx-auto py-4 items-center px-5 md:px-0'>
-                <div><img src={logo} alt="" /></div>
+                <Link to='/' className='text-3xl md:text-5xl font-bold'><h2 >Keen<span className='text-[#244D3F]'>Keeper</span></h2></Link>
                 <div>
                     <div className='hidden md:flex space-x-2'>
                         {newLink}

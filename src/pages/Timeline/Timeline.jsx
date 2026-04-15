@@ -21,7 +21,7 @@ const Timeline = () => {
 
     return (
         <div className='bg-base-200'>
-            <div className='container mx-auto py-20 space-y-6 '>
+            <div className='container mx-auto px-5 lg:px-0 py-10 lg:py-20 space-y-6 '>
                 <h2 className="text-5xl font-bold">Timeline </h2>
                 <div>
                     <div className="dropdown dropdown-bottom">
@@ -34,7 +34,7 @@ const Timeline = () => {
                     </div>
                 </div>
                 <div className='space-y-6 '>
-                    {flitteredContact.length === 0 ? <div>no data</div> : flitteredContact.map((contact, i) => <ContactCard key={i} contact={contact} />)}
+                    {flitteredContact.length === 0 ? <div className='text-center py-10 bg-base-100 '><h3 className='text-4xl font-semibold'>No data found!</h3> </div> : flitteredContact.map((contact, i) => <ContactCard key={i} contact={contact} />)}
                     { }
                 </div>
             </div>

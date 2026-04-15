@@ -5,8 +5,15 @@ import { ContactContext } from '../../context/ContactContext';
 import { toast } from 'react-toastify';
 
 const CheckIn = ({ targetedFriends }) => {
-    const { callContact, textContact, videoContact
-        , setCallContact, setTextContact, setVideoContact,allContact } = useContext(ContactContext)
+    const { callContact,
+        textContact,
+        videoContact,
+        setCallContact,
+        setTextContact,
+        setVideoContact,
+        allContact,
+        setAllContact,
+    } = useContext(ContactContext)
 
     const handelCall = (targetedFriends) => {
         const { name } = targetedFriends
@@ -14,6 +21,7 @@ const CheckIn = ({ targetedFriends }) => {
         const time = new Date()
         const newContact = { name, status: 'Call', time: time }
         setCallContact([...callContact, newContact])
+        setAllContact([...allContact, newContact])
         toast.success(`Call with ${name}`)
     }
     const handelMassage = (targetedFriends) => {
@@ -22,6 +30,7 @@ const CheckIn = ({ targetedFriends }) => {
         const time = new Date()
         const newContact = { name, status: 'Text', time: time }
         setTextContact([...textContact, newContact])
+        setAllContact([...allContact, newContact])
         toast.success(`Massage with ${name}`)
     }
     const handelVideo = (targetedFriends) => {
@@ -30,9 +39,10 @@ const CheckIn = ({ targetedFriends }) => {
         const time = new Date()
         const newContact = { name, status: 'Video', time: time }
         setVideoContact([...videoContact, newContact])
+        setAllContact([...allContact, newContact])
         toast.success(`Video with ${name}`)
     }
-console.log(allContact);
+    console.log(allContact);
 
 
     return (

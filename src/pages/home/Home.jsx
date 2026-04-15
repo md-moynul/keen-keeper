@@ -6,10 +6,10 @@ import StatusSection from "../../components/homePage/StatusSection";
 const Home = () => {
     return (
     <div className='bg-base-200'>
-        <div className=' py-10 px-4 md:px-0 md:py-20 space-y-10'>
+        <div className=' py-10 px-4 lg:px-0 md:py-15 lg:py-20 space-y-10'>
             <HomePageHeading />
             <StatusSection/>
-            <hr className='container mx-auto text-gray-300' />
+            <hr className='container mx-auto text-base-300' />
             <HomePageFriends/>
         </div>
     </div>

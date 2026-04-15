@@ -12,9 +12,9 @@ const Footer = () => {
                     < p className=''>Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.</p>
                     <h3 className="text-2xl font-medium">Social Links</h3>
                     <div className='flex justify-center gap-2'>
-                        <a  className='bg-base-100 text-black p-3 rounded-full' href=""><TbBrandInstagramFilled size={30} /></a>
-                        <a  className='bg-base-100 text-black p-3 rounded-full' href=""><FaFacebookSquare size={30} /></a>
-                        <a  className='bg-base-100 text-black p-3 rounded-full' href=""><FaXTwitter  size={30} /></a>
+                        <a  className='bg-white text-black p-3 rounded-full' href=""><TbBrandInstagramFilled size={30} /></a>
+                        <a  className='bg-white text-black p-3 rounded-full' href=""><FaFacebookSquare size={30} /></a>
+                        <a  className='bg-white text-black p-3 rounded-full' href=""><FaXTwitter  size={30} /></a>
                     </div>
                 </div>
                 <div className='flex flex-col-reverse gap-4 md:flex-row md:justify-between text-gray-400'>

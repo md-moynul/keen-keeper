@@ -7,7 +7,7 @@ const Goal = ({goal}) => {
                     <h4 className="text-xl text-[#244D3F] font-semibold">Relationship Goal</h4>
                     <button className="btn">Edit</button>
                     </div>
-                    <p className='text-gray-400'>Connect every <span className='font-bold text-black'>{goal} days</span></p>
+                    <p > <span className='text-gray-400'>Connect every</span> <span className='font-bold '>{goal} days</span></p>
                 </div>
     );
 };
