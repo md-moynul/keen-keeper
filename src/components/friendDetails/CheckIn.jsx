@@ -46,7 +46,7 @@ const CheckIn = ({ targetedFriends }) => {
 
 
     return (
-        <div className="shadow bg-base-100 rounded-2xl  space-y-4 p-5 flex flex-col">
+        <div className="bg-base-100 rounded-2xl  space-y-4 p-5 flex flex-col shadow hover:shadow-xl hover:shadow-blue-300 hover:scale-101 transition-all duration-300">
             <h3 className="text-xl text-[#244D3F]">Quick Check-In</h3>
             <div className='grid grid-cols-3 gap-3 '>
                 <div onClick={() => { handelCall(targetedFriends) }} className="btn h-fit grid items-center justify-center rounded p-4 space-y-1 ">

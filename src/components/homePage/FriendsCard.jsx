@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 const FriendsCard = ({ friend }) => {
     const {id, name, picture, days_since_contact, tags, status } = friend
     return (
-        <Link to={`/home/${id}`} className='space-y-4 bg-base-100 rounded-2xl p-6 text-center'>
+        <Link to={`/home/${id}`} className='space-y-4 bg-base-100 rounded-2xl p-6 text-center shadow hover:shadow-xl hover:shadow-blue-300 hover:scale-101 transition-all duration-300 '>
             <img className='mx-auto mb-2' src={picture} alt={`${name} pic`} />
             <h3 className='text-xl font-semibold '>{name}</h3>
             <p className='text-xs text-gray-400'>{days_since_contact}d ago</p>

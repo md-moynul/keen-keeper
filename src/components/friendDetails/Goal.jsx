@@ -2,7 +2,7 @@ import React from 'react';
 
 const Goal = ({goal}) => {
     return (
-         <div className=' space-y-4 p-6 flex flex-col justify-center'>
+         <div className=' space-y-4 p-6 flex flex-col justify-center shadow hover:shadow-xl hover:shadow-blue-300 hover:scale-101 transition-all duration-300'>
                     <div className='flex justify-between  items-center'>
                     <h4 className="text-xl text-[#244D3F] font-semibold">Relationship Goal</h4>
                     <button className="btn">Edit</button>
