@@ -2,7 +2,7 @@ import React from 'react';
 
 const FriendDetailsMain = ({picture,name,status,tags,bio,preferred_contact_method}) => {
     return (
-        <div className='space-y-4 bg-base-100 rounded-2xl p-6 text-center shadow hover:shadow-xl hover:shadow-blue-300 hover:scale-101 transition-all duration-300'>
+        <div className='space-y-4 bg-base-100 rounded-2xl p-6 text-center shadow hover:shadow-xl hover:shadow-[#244D3F] hover:scale-101 transition-all duration-300'>
                     <img className='mx-auto mb-2' src={picture} alt={`${name} pic`} />
                     <h3 className='text-xl font-semibold '>{name}</h3>
 

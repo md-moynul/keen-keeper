@@ -31,25 +31,25 @@ const FriendsDetails = () => {
                 <div className='col-span-3 md:col-span-2 row-span-2'>
                     <FriendDetailsMain name={name} picture={picture} tags={tags} status={status} bio={bio} preferred_contact_method={preferred_contact_method}/>
                 </div>
-                <div className='shadow hover:shadow-xl hover:shadow-blue-300 hover:scale-101 transition-all duration-300  space-y-2 bg-base-100 rounded-2xl text-center flex justify-center items-center py-8 px-4' >
+                <div className='shadow hover:shadow-xl hover:shadow-[#244D3F] hover:scale-101 transition-all duration-300  space-y-2 bg-base-100 rounded-2xl text-center flex justify-center items-center py-8 px-4' >
                     <div>
                         <h3 className="text-2xl md:text-3xl font-semibold text-[#244D3F]">{days_since_contact}</h3>
                         <p className='text-[18px] text-gray-400'>Days Since Contact</p>
                     </div>
                 </div>
-                <div className='shadow hover:shadow-xl hover:shadow-blue-300 hover:scale-101 transition-all duration-300  space-y-2 bg-base-100 rounded-2xl text-center flex justify-center items-center py-8 px-4' >
+                <div className='shadow hover:shadow-xl hover:shadow-[#244D3F] hover:scale-101 transition-all duration-300  space-y-2 bg-base-100 rounded-2xl text-center flex justify-center items-center py-8 px-4' >
                     <div>
                         <h3 className="text-2xl md:text-3xl font-semibold text-[#244D3F]">{goal}</h3>
                         <p className='text-[18px] text-gray-400'>Goal (Days)</p>
                     </div>
                 </div>
-                <div className=' shadow hover:shadow-xl hover:shadow-blue-300 hover:scale-101 transition-all duration-300 space-y-2 bg-base-100 rounded-2xl text-center flex justify-center items-center py-8 px-4' >
+                <div className=' shadow hover:shadow-xl hover:shadow-[#244D3F] hover:scale-101 transition-all duration-300 space-y-2 bg-base-100 rounded-2xl text-center flex justify-center items-center py-8 px-4' >
                     <div>
                         <h3 className="text-2xl md:text-3xl font-semibold text-[#244D3F]">{next_due_date}</h3>
                         <p className='text-[18px] text-gray-400'>Next Due</p>
                     </div>
                 </div>
-               <div className='col-span-3 shadow bg-base-100 rounded-2xl pt-8'>
+               <div className='col-span-3 shadow bg-base-100 rounded-2xl pt-8 shadow hover:shadow-xl hover:shadow-[#244D3F] hover:scale-101 transition-all duration-300'>
                     <Goal goal={goal}/>
                </div>
                <div className='col-span-3 md:col-span-2 '>
