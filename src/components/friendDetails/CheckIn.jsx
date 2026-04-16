@@ -17,7 +17,7 @@ const CheckIn = ({ targetedFriends }) => {
 
     const handelCall = (targetedFriends) => {
         const { name } = targetedFriends
-        console.log('call clicked', targetedFriends.name);
+        // console.log('call clicked', targetedFriends.name);
         const time = new Date()
         const newContact = { name, status: 'Call', time: time }
         setCallContact([...callContact, newContact])
@@ -26,7 +26,7 @@ const CheckIn = ({ targetedFriends }) => {
     }
     const handelMassage = (targetedFriends) => {
         const { name } = targetedFriends
-        console.log('call clicked', targetedFriends.name);
+        // console.log('call clicked', targetedFriends.name);
         const time = new Date()
         const newContact = { name, status: 'Text', time: time }
         setTextContact([...textContact, newContact])
@@ -35,14 +35,14 @@ const CheckIn = ({ targetedFriends }) => {
     }
     const handelVideo = (targetedFriends) => {
         const { name } = targetedFriends
-        console.log('call clicked', targetedFriends.name);
+        // console.log('call clicked', targetedFriends.name);
         const time = new Date()
         const newContact = { name, status: 'Video', time: time }
         setVideoContact([...videoContact, newContact])
         setAllContact([...allContact, newContact])
         toast.success(`Video with ${name}`)
     }
-    console.log(allContact);
+    // console.log(allContact);
 
 
     return (
