@@ -17,7 +17,7 @@ const Navbar = () => {
         {links.map((e, i) => <NavbarLinks key={i} icon={e.icon} to={e.to}>{e.children}</NavbarLinks>)}
     </>
     return (
-        <div className='bg-base-100 shadow px-5  lg:p-0'>
+        <div className='bg-base-100 shadow px-5  lg:p-0 sticky top-0'>
             <div className='flex justify-between container mx-auto py-4 items-center px-5 md:px-0'>
                 <Link to='/' className='text-3xl md:text-5xl font-bold'><h2 >Keen<span className='text-[#244D3F]'>Keeper</span></h2></Link>
                 <div>
