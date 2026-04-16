@@ -11,7 +11,8 @@
     "goal": 60,
     "next_due_date": "2026-04-12",
     "preferred_contact_method": "LinkedIn",
-    "need_attention": false
+    "need_attention": false,
+    "Interactions_This_Month": 3
   },
   {
     "id": 2,
@@ -26,7 +27,8 @@
     "next_due_date": "2026-02-27",
     "preferred_contact_method": "email",
     "relationship_goal": "Connect every 30 days",
-    "need_attention": true
+    "need_attention": true,
+    "Interactions_This_Month": 1
   },
   {
     "id": 3,
@@ -40,7 +42,8 @@
     "goal": 30,
     "next_due_date": "2026-03-13",
     "preferred_contact_method": "Slack",
-    "need_attention": true
+    "need_attention": true,
+    "Interactions_This_Month": 0
   },
   {
     "id": 4,
@@ -54,7 +57,8 @@
     "goal": 30,
     "next_due_date": "2026-03-13",
     "preferred_contact_method": "Text",
-    "need_attention": false
+    "need_attention": false,
+    "Interactions_This_Month": 2
   },
   {
     "id": 5,
@@ -68,7 +72,8 @@
     "goal": 30,
     "next_due_date": "2026-03-13",
     "preferred_contact_method": "email",
-    "need_attention": true
+    "need_attention": true,
+    "Interactions_This_Month": 4
   },
   {
     "id": 6,
@@ -82,7 +87,8 @@
     "goal": 60,
     "next_due_date": "2026-04-22",
     "preferred_contact_method": "Call",
-    "need_attention": false
+    "need_attention": false,
+    "Interactions_This_Month": 5
   },
   {
     "id": 7,
@@ -96,7 +102,8 @@
     "goal": 90,
     "next_due_date": "2026-05-12",
     "preferred_contact_method": "Slack",
-    "need_attention": true
+    "need_attention": true,
+    "Interactions_This_Month": 2
   },
   {
     "id": 8,
@@ -110,7 +117,8 @@
     "goal": 60,
     "next_due_date": "2026-04-12",
     "preferred_contact_method": "Text",
-    "need_attention": true
+    "need_attention": true,
+    "Interactions_This_Month": 1
   },
   {
     "id": 9,
@@ -124,7 +132,8 @@
     "goal": 60,
     "next_due_date": "2026-04-12",
     "preferred_contact_method": "email",
-    "need_attention": false
+    "need_attention": false,
+    "Interactions_This_Month": 0
   },
   {
     "id": 10,
@@ -138,7 +147,8 @@
     "goal": 30,
     "next_due_date": "2026-03-23",
     "preferred_contact_method": "Call",
-    "need_attention": false
+    "need_attention": false,
+    "Interactions_This_Month": 2
   },
   {
     "id": 11,
@@ -152,7 +162,8 @@
     "goal": 30,
     "next_due_date": "2026-03-13",
     "preferred_contact_method": "LinkedIn",
-    "need_attention": true
+    "need_attention": true,
+    "Interactions_This_Month": 1
   },
   {
     "id": 12,
@@ -166,6 +177,7 @@
     "goal": 90,
     "next_due_date": "2026-05-12",
     "preferred_contact_method": "Video",
-    "need_attention": false
+    "need_attention": false,
+    "Interactions_This_Month": 3
   }
 ]
