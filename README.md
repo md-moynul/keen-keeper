@@ -1,16 +1,30 @@
-# React + Vite
+# 👥 KeenKeeper — Keep Your Friendships Alive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A friendship management web app that helps you track and maintain meaningful relationships by logging interactions, monitoring contact frequency, and visualizing your social habits.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 1. 📋 Friend Tracker with Status Indicators
+View all your friends as cards with real-time contact status — **Overdue**, **Almost Due**, or **On Track** — so you always know who needs your attention next.
 
-## Expanding the ESLint configuration
+### 2. 📜 Interaction Timeline
+Log every Call, Text, or Video check-in directly from a friend's detail page. All interactions are recorded with a timestamp and displayed in a chronological timeline you can filter by type.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 3. 📊 Friendship Analytics Dashboard
+A dedicated Stats page with a **Pie Chart** (powered by Recharts) showing a breakdown of your interaction types — giving you a clear picture of how you stay in touch with the people who matter.
+
+
+## 🌐 Live Demo
+
+[keen-keeper-iota.vercel.app](https://keen-keeper-iota.vercel.app)
+
+## 🛠️ Technologies Used
+
+- **React.js** — Component-based UI
+- **React Router DOM** — Client-side navigation
+- **Tailwind CSS** — Utility-first styling and responsive design
+- **Recharts** — Interactive charts for analytics
+- **Vite** — Fast development build tool
+- **Vercel** — Deployment and hosting
