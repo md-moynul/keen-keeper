@@ -28,7 +28,7 @@ const FriendsDetails = () => {
     return (
         <div className='bg-base-200 py-20'>
             <div className='container mx-auto grid grid-cols-3 md:grid-cols-5  gap-6'>
-                <div className='col-span-3 md:col-span-2 row-span-2 space-y-6'>
+                <div className='col-span-3 md:col-span-2 row-span-3 space-y-6'>
                     <FriendDetailsMain name={name} picture={picture} tags={tags} status={status} bio={bio} preferred_contact_method={preferred_contact_method} />
                     <div className='col-span-3 md:col-span-2 '>
                         <SnoozeArchiveDelete />
